@@ -1,15 +1,16 @@
 {
   "name": "vite-vue-ts-starter",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "preview": "vite preview"
+    "preview": "vite build && vite preview"
   },
   "dependencies": {
-    "vue": "^3.4.14"
+    "vue": "^3.4.14",
+    "element-plus": "^2.7.3"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.3",

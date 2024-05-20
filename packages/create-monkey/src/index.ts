@@ -29,6 +29,12 @@ type FrameworkVariant = {
 
 const FRAMEWORKS: Framework[] = [
   {
+    name: 'element-plus',
+    display: 'ElementPlus',
+    color: cyan,
+    variants: [],
+  },
+  {
     name: 'empty',
     display: 'Empty',
     color: yellow,

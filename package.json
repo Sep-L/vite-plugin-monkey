@@ -1,6 +1,7 @@
 {
   "name": "monkey-monorepo",
   "private": true,
+  "version": "1.0.0",
   "scripts": {
     "prepare": "husky install",
     "format": "prettier --cache --write .",
@@ -76,5 +77,5 @@
   "volta": {
     "node": "20.10.0"
   },
-  "packageManager": "pnpm@8.11.0"
+  "packageManager": "pnpm@9.1.1"
 }
